@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import ActorGrid from '../components/actor/ActorGrid';
+
 import MainPageLayout from '../components/MainPageLayout';
-import ShowGrid from '../components/show/ShowGrid';
 import { apiGet } from '../misc/config';
+import ShowGrid from '../components/show/ShowGrid';
+import ActorGrid from '../components/actor/ActorGrid';
 
 // eslint-disable-next-line react/function-component-definition
 const Home = () => {
